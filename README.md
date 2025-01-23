@@ -59,7 +59,7 @@ Outro exemplo é a função `executarTeste` do código original. Ela tinha muita
 
 | **Função executarTestes**                | **Utilitarios.h**           |
 |------------------------------------|------------------------------------|
-| ![Antes](imagens/executarTestes.png) | ![Depois](imagens/Utilitarios.png) |
+| ![Antes](imagens/executarTestes.png) | ![Depois](imagens/Utilitarios1.png) |
 
 ### Programação Defensiva:
 
