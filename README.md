@@ -39,6 +39,9 @@ A nova versão foi desenvolvida seguindo os princípios do Clean Code, garantind
     Para rodar a main:
     ```bash
     ./menuPrincipal
+## Vídeo:
+O vídeo apresenta as melhorias da nova versão do código, comparando com a original, explicando mudanças e demonstrando seu funcionamento.
+[Assista aqui](https://www.loom.com/share/030e55c9da86435dafe00a38e6479b74?sid=ae19ee18-854f-447f-a66c-8ef6790a9a0f)
 
 ## Comparação
 
@@ -60,9 +63,9 @@ Outro exemplo é a função `executarTeste` do código original. Ela tinha muita
 
 ### Programação Defensiva:
 
-No código original, não havia necessidade de validações, pois o programa apenas executava e avaliava os resultados dos algoritmos, sem interação com o usuário. Porém na nova versão, o programa foi modificado para ser interativo, permitindo que o usuário defina diversas entradas, como o algoritmo a ser executado, o tamanho do vetor, o elemento a ser buscado (caso esteja utilizando um algoritmo de busca), e se deseja ou não visualizar o vetor de saída. Todas essas interações são feitas por meio do terminal.
+No código original, havia uma interação simples com o terminal, onde o usuário podia escolher o tipo de algoritmo a ser executado (busca ou ordenação). No entanto, com as modificações realizadas na nova versão, o programa se tornou mais interativo, permitindo que o usuário defina diversas entradas, como o algoritmo específico a ser executado, o tamanho do vetor, o elemento a ser buscado (caso esteja utilizando um algoritmo de busca) e se deseja ou não visualizar o vetor de saída. Todas essas interações são feitas por meio do terminal.
 
-Com a inclusão dessas funcionalidades, foi necessário adicionar validações para garantir que entradas inválidas não causassem falhas no programa. Por exemplo, ao escolher um algoritmo, o usuário deve fornecer um número inteiro correspondente à opção desejada. Caso o número fornecido não seja mapeado para uma opção válida, uma mensagem de erro é exibida, assegurando que o programa continue funcionando corretamente sem ser interrompido por uma entrada inválida.
+Com a inclusão dessas novas funcionalidades, foi necessário adicionar validações para garantir que entradas inválidas não causassem falhas no programa. Por exemplo, ao escolher um algoritmo, o usuário deve fornecer um número inteiro correspondente à opção desejada. Caso o número fornecido não seja mapeado para uma opção válida, uma mensagem de erro é exibida, assegurando que o programa continue funcionando corretamente sem ser interrompido por uma entrada inválida.
 
 ### Exemplo:
 
